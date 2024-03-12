@@ -1,3 +1,132 @@
 body{
     background-color: #1B1C31;
 }
+.menu{
+position: absolute;
+width: 1114px;
+height: 182px;
+left: 306px;
+top: 66px;
+
+background: #222338;
+border-radius: 16px;
+
+}
+.logo{
+
+    position: absolute;
+    width: 252px;
+    height: 38px;
+    left: 25px;
+    top: 35px;
+    
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    color: #EBEDFA;
+}
+.woman{
+
+position: absolute;
+width: 128px;
+height: 52px;
+left: 954px;
+top: 32px;
+
+
+}
+.Search{
+
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 28px;
+gap: 232px;
+
+position: absolute;
+width: 480px;
+height: 52px;
+left: 32px;
+top: 104px;
+
+border: 1px solid #F5F5F7;
+border-radius: 10px;
+color: #EBEDFA;
+}
+.Category{
+
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 28px;
+gap: 10px;
+
+width: 146px;
+height: 52px;
+
+border: 1px solid #F5F5F7;
+border-radius: 10px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+ 
+position: relative;
+ 
+top: 104px;
+left: 711px;
+
+color: #EBEDFA;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .menu{
+        
+        position: absolute;
+        width: 375px;
+        height: 248px;
+        left: 0px;
+        top: 0px;
+        
+        background: #1B1C31;
+    }
+.logo{
+    
+color: #EBEDFA;
+
+position: absolute;
+width: 175.41px;
+height: 22.97px;
+left: 25.85px;
+top: 115.83px;
+
+background-image: url(/assets/img/Menu.png);
+background-repeat: no-repeat;
+padding: 62px 24px ;
+background-image: url(/assets/img/Group\ 12\ \(1\).png);
+padding-right: 0;
+
+}
+.Search{
+    display: none;
+}
+.Category{
+    display: none;
+}
+.woman{
+    display: none;
+
+}
+
+}   
